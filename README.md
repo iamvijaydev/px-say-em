@@ -23,8 +23,13 @@ Edit and use (advanced)
 * Click `Load unpacked extension`
 * Choose the repo or extracted folder
 
+
+Other browsers
+==============
 You can also just open the `px-say-em.html` in any mordern browser to use it.
 
-If you have created a kickass feature/theme or improved the plugin, send me a pull request.
 
+A better plugin
+===============
+If you have created a kickass feature/theme or improved the plugin, send me a pull request.
 If you find any bug please raise an issue here: https://github.com/vijaydev-in/px-say-em/issues
