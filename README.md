@@ -1,4 +1,4 @@
-px-say-em - a Google Chrome plugin
-====================================
+px-say-em
+=========
 
-A small plugin to convert px to em and vise versa.
+A small Google Chrome plugin to convert px to em and vise versa.
