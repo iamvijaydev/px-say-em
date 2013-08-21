@@ -11,7 +11,7 @@ Installition (simple)
 * Open plugin folder from repository extracted zip
 * Open Google Chrome
 * Goto `Settings > Tools > Extension`
-* Drag and drop `px-say-em.crx` into the Extension tab in Google Chrome
+* Drag and drop `px-say-em.crx` into this Extension tab
 
 
 Edit and use (advanced)
