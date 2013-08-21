@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #272822;
+  color: #333;
+  min-width: 286px;
+  overflow: hidden;
+  -webkit-user-select: none;
+}
+
+body,
+input,
+select {
+  font-family: 'monaco', 'consols', 'lucida grande', 'Lucida Sans Unicode', tahoma, verdana, monospace;
+}
+
+ul {
+   list-style: none;
+}
+
+body > section {
+  width: 315px;
+  margin: auto;
+  position: relative;
+}
+
+body *::selection{
+  background: #dc7715;
+  color: #fff;
+}
+
+#user_input {
+  background: #525252;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  padding: 5px;
+}
+
+#base_text,
+#base,
+#px_in,
+#px_text,
+#mode {
+  font-size: 13px;
+  float: left;
+  outline: none;
+  padding: 5px;
+  background-color: #383838;
+  color: #fff;
+  border-color: #303030;
+  border-style: solid;
+}  
+
+#base_text {
+  width: 45px;
+  padding-right: 0;
+  border-radius: 3px 0 0 3px;
+  border-width: 1px 0 1px 1px;
+}
+
+#base {
+  width: 35px;
+  padding-left: 0;
+  border-width: 1px 0 1px 0;
+}
+
+#px_text {
+  width: 17px;
+  border-radius: 0 3px 3px 0;
+  border-width: 1px 1px 1px 0;
+}
+
+#px_in {
+  float: right;
+  width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-radius: 3px 0 0 3px;
+  border-width: 1px 0 1px 1px;
+}
+
+#mode {
+  float: right;
+  padding: 4px 4px 4px 2px;
+  border-radius: 0 3px 3px 0;
+  border-width: 1px;
+}
+
+#results li {
+  font-size: 12px;
+  padding: 10px 5px 10px 10px;
+  position: relative;
+  text-overflow: ellipsis;
+  /**/
+  -webkit-user-select: none;
+}
+
+#results li:not(:last-child) {
+  border-bottom: 1px dotted #464741;
+}
+
+#results span {
+  color: #ae81ff;
+  max-width: 100%;
+  -webkit-user-select: initial;
+}
+
+#results i,
+#results u,
+#results b {
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#results i {
+  color: #d92665;
+}
+
+#results u {
+  color: #f8f8f2;
+}
+
+#results b {
+  color: #464741;
+}
+
+#vijay_dev {
+  background: #525252;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: -1px;
+  padding: 3px 0 4px;
+  color: #a9a9a9;
+}
+
+#vijay_dev a {
+  color: #5cd9ef;
+  text-decoration: none;
+}
+
+#vijay_dev a:hover {
+  color: #3498DB;
+}
+
+@media all and (min-width: 800px) {
+  body {
+    padding-top: 100px;
+  }
+
+  #user_input {
+    border-radius: 3px;
+  }
+
+  #vijay_dev {
+    border-radius: 3px;
+  }
+}

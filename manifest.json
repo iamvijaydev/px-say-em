@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "px-say-em",
+  "description": "Ultra simple utility to convert px values to em and vise versa",
+  "version": "1.0",
+
+  "browser_action": {
+  	"default_icon": "icon.png",
+    "default_popup": "px-say-em.html"
+  }
+}
