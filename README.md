@@ -4,7 +4,7 @@ px-say-em
 A tiny Google Chrome plugin to convert `px` to `em` and vise versa.
 
 
-Installition (simple)
+Installation (simple)
 =====================
 
 * Clone the repository or download as zip and extract
