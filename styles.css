@@ -8,17 +8,21 @@ body {
   color: #333;
   min-width: 286px;
   overflow: hidden;
+  /**/
   -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 body,
 input,
 select {
-  font-family: 'monaco', 'consols', 'lucida grande', 'Lucida Sans Unicode', tahoma, verdana, monospace;
+  font-family: 'monaco', 'consolas', 'lucida grande', 'Lucida Sans Unicode', tahoma, verdana, monospace;
 }
 
 ul {
-   list-style: none;
+  list-style: none;
 }
 
 body > section {
@@ -34,9 +38,13 @@ body *::selection{
 
 #user_input {
   background: #525252;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   padding: 5px;
+  /**/
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      -ms-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 #base_text,
@@ -57,8 +65,12 @@ body *::selection{
 #base_text {
   width: 45px;
   padding-right: 0;
-  border-radius: 3px 0 0 3px;
   border-width: 1px 0 1px 1px;
+  /**/
+  -webkit-border-radius: 3px 0 0 3px;
+     -moz-border-radius: 3px 0 0 3px;
+      -ms-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
 }
 
 #base {
@@ -69,8 +81,12 @@ body *::selection{
 
 #px_text {
   width: 17px;
-  border-radius: 0 3px 3px 0;
   border-width: 1px 1px 1px 0;
+  /**/
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+      -ms-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
 }
 
 #px_in {
@@ -78,15 +94,23 @@ body *::selection{
   width: 120px;
   overflow: hidden;
   white-space: nowrap;
-  border-radius: 3px 0 0 3px;
   border-width: 1px 0 1px 1px;
+  /**/
+  -webkit-border-radius: 3px 0 0 3px;
+     -moz-border-radius: 3px 0 0 3px;
+      -ms-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
 }
 
 #mode {
   float: right;
   padding: 4px 4px 4px 2px;
-  border-radius: 0 3px 3px 0;
   border-width: 1px;
+  /**/
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+      -ms-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
 }
 
 #results li {
@@ -94,8 +118,6 @@ body *::selection{
   padding: 10px 5px 10px 10px;
   position: relative;
   text-overflow: ellipsis;
-  /**/
-  -webkit-user-select: none;
 }
 
 #results li:not(:last-child) {
@@ -105,7 +127,11 @@ body *::selection{
 #results span {
   color: #ae81ff;
   max-width: 100%;
+  /**/
   -webkit-user-select: initial;
+     -moz-user-select: initial;
+      -ms-user-select: initial;
+          user-select: initial;
 }
 
 #results i,
@@ -130,12 +156,16 @@ body *::selection{
 
 #vijay_dev {
   background: #525252;
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
   text-align: center;
   font-size: 11px;
   letter-spacing: -1px;
-  padding: 3px 0 4px;
+  padding: 5px 0 3px;
   color: #a9a9a9;
+  /**/
+  -webkit-box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+      -ms-box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
 }
 
 #vijay_dev a {
