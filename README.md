@@ -1,7 +1,7 @@
 px-say-em
 =========
 
-A tiny Google Chrome plugin to convert `px` to `em` and vise versa.
+A tiny Google Chrome plugin to convert `px` to `em` and vise versa. Demo: http://vijaydev-in.github.io/px-say-em/
 
 
 Installation (simple)
