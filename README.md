@@ -32,4 +32,4 @@ You can also just open the `px-say-em.html` in any mordern browser to use it.
 A better plugin
 ===============
 If you have created a kickass feature/theme or improved the plugin, send me a pull request.
-If you find any bug please raise an issue here: https://github.com/vijaydev-in/px-say-em/issues
+If you find any bug please raise an issue here: https://github.com/vijaydevin/px-say-em/issues
